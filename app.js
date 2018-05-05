@@ -6,8 +6,12 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var MongoStore = require('connect-mongo')(session);
 
-//connect to mongo
-mongoose.connect('mongodb://localhost/ofafwah');
+
+
+var uri = "mongodb+srv://Farmer:testpass123@cluster0-89v5e.mongodb.net/ofafwah";
+
+//connect mongoose to mongo
+mongoose.connect(uri);
 var db = mongoose.connection;
 
 //handle mongo error
