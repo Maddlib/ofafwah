@@ -1,0 +1,24 @@
+{
+  "name": "ofafwah",
+  "version": "0.0.1",
+  "description": "A Financial App For Wizards and Humans (but mostly humans)",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maddlib/ofafwah.git"
+  },
+  "author": "Ozzie Pelaez, Jarek Farmer, and Andrew Holcomb",
+  "license": "ISC"
+}
